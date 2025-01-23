@@ -9,7 +9,7 @@ This assumes that you have an environment that is setup to run a RN 0.77 applica
 2. Build the iOS application `npm run ios`
 3. Build the Android application `npm run android`
 
-You should now have `android/` and `ios` directories with built applications in your simulator/device and emulator/device.
+You should now have `android/` and `ios/` directories with built applications in your simulator and emulator.
 
 ## Running the Test
 
