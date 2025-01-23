@@ -1,0 +1,15 @@
+appId: "com.maestrodisabled.bug"
+---
+- launchApp
+- assertVisible:
+    text: "Enabled Button"
+    enabled: true
+- assertVisible: # Fails on Android
+    text: "Disabled Button"
+    enabled: false
+- assertNotVisible:
+    text: "Enabled Button"
+    enabled: false
+- assertNotVisible:
+    text: "Disabled Button"
+    enabled: true
